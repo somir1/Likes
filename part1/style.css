@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.someuser{
+    margin-top: 20px;
+    width: 60%;
+    height: 60%;
+    border: 3px black solid;
+}
+
+.LIKES{
+    width: 80px;
+    background-color: chartreuse;
+}
+
+.likecount{
+    display: flex;
+    margin: 1.5em;
+    gap: 25px;
+    justify-content: space-between;
+    align-items: top;
+}
+
+.filler{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+}
